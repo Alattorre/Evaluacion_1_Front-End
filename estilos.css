@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.oswald-uno {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+/* Usos de Flexbox */
+/* comentar ctrl + k + c   */
+/* descomentar ctrl + k + u  */
+.contenedor{
+    display: flex;
+    background: #1d92af;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    height: 200px;
+}
+.Imagen{
+       display: flex;
+}
+.caja{
+    display: flex;
+    background: rgb(224, 7, 7);
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(14, 113, 179);
+    padding: 15px;
+    color: #471818;
+}
+
+.logo{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    gap:20px
+}
+.nav-links a{
+    font-size: 18px;
+    color: #0f0303;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(46, 30, 197)
+}
