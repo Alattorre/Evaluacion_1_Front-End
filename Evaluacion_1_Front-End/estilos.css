@@ -137,3 +137,23 @@ td, th{
     align-items: center;
     padding: 40px;
 }
+.galeria {
+    display: flex;
+    justify-content: center; /* centra los proyectos */
+    gap: 100px; /* espacio entre ellos */
+    flex-wrap: wrap; /* 👈 importante para que no se rompa en pantallas pequeñas */
+}
+
+.proyecto {
+    width: 450px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    border-radius: 8px;
+}
