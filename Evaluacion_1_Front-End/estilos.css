@@ -247,3 +247,64 @@ td, th{
     text-align: center;
     margin-top: 40px;
 }
+/* TABLET (768px) */
+@media (max-width: 768px) {
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-mi-contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contacto-contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .info-contacto {
+        width: 100%;
+    }
+}
+
+/* MÓVIL (480px) */
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inicio-texto {
+        font-size: 20px;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-tablas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 100%;
+    }
+}
